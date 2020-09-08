@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://turkerakbulut.com/ontology/game#"
+     xml:base="https://turkerakbulut.com/ontology/game"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://turkerakbulut.com/ontology/game">
+        <owl:versionIRI rdf:resource="https://turkerakbulut.com/ontology/game"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Clay -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Clay">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Surface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Double -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Double">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Draw"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Draw -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Draw">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tennis"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Game -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Game"/>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#GrandSlam -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#GrandSlam">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Grass -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Grass">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Surface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Hard -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Hard">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Surface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#ITFFeature -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#ITFFeature">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Masters -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Masters">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#MixedDouble -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#MixedDouble">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Draw"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Olympic -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Olympic">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tournament"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Peddle -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Peddle">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#RacquetGames"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Player -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Player">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tennis"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#RacquetGames -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#RacquetGames">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Game"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Single -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Single">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Draw"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Surface -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Surface">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tennis"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#TableTennis -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#TableTennis">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#RacquetGames"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Tennis -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Tennis">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#RacquetGames"/>
+    </owl:Class>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Tournament -->
+
+    <owl:Class rdf:about="https://turkerakbulut.com/ontology/game#Tournament">
+        <rdfs:subClassOf rdf:resource="https://turkerakbulut.com/ontology/game#Tennis"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#AUOpen -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#AUOpen">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#GrandSlam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#RafaelNadal -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#RafaelNadal">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#Player"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#RogerFederer -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#RogerFederer">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#Player"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#USOpen -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#USOpen">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#GrandSlam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Wawrinka -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#Wawrinka">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#Player"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://turkerakbulut.com/ontology/game#Wimbledon -->
+
+    <owl:NamedIndividual rdf:about="https://turkerakbulut.com/ontology/game#Wimbledon">
+        <rdf:type rdf:resource="https://turkerakbulut.com/ontology/game#GrandSlam"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
