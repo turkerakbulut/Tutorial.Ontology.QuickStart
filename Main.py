@@ -13,6 +13,7 @@ onto_path.append(directory + "/Repo")
 # Ontology load
 onto = get_ontology(directory + "/Repo/game.owl").load()
 
+########
 print(onto.Masters.is_a)
 print(onto.Tennis.is_a)
 print(onto.Grass.is_a)
